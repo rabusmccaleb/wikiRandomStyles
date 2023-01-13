@@ -1,5 +1,5 @@
-.overlay-enabled, .mw-body {
-  background-color : black !important!;
+#content .mw-body {
+  background-color : black !important;
 }
 
 p {
