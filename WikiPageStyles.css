@@ -1,0 +1,7 @@
+.overlay-enabled, .mw-body {
+  background-color : black !important!;
+}
+
+p {
+  color : white !important;
+}
