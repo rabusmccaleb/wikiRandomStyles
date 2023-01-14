@@ -50,3 +50,12 @@ let footer = document.querySelector(".minerva-footer");
 if (footer) {
   footer.style.background = 'lightslategray';
 }
+
+let infoBox = document.querySelectorAll('.infobox');
+if (infoBox.length) {
+  infoBox.forEach(elem => {
+    elem.style.borderRadius = '10px';
+    elem.style.boxShadow = '0px 2px 4px rgba(0,0,0,0.25)';
+    elem.style.backgroundColor = 'whitesmoke';
+  });
+}
