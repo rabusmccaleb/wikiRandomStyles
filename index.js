@@ -39,6 +39,7 @@ if (minerva__tabs.length) {
 let header = document.querySelector('.header-container');
 if (header) {
   header.style.backgroundColor = 'lightslategray';
+  header.style.borderRadius = '10px';
 }
 
 let relatedContent = document.querySelector('.ext-related-articles-card-list.ext-related-articles-card');
