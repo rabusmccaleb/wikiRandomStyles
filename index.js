@@ -15,7 +15,7 @@ if (title) {
 
 let header = document.querySelector('.header-container');
 if (header) {
-  header.style.backgroundColor = 'gray';
+  header.style.backgroundColor = 'lightslategray';
 }
 
 let relatedContent = document.querySelector('.ext-related-articles-card-list.ext-related-articles-card');
