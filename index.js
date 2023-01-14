@@ -20,9 +20,10 @@ if (header) {
 
 let relatedContent = document.querySelector('.ext-related-articles-card-list .ext-related-articles-card');
 if (relatedContent) {
-  relatedContent.backgroundColor = 'gray';
-  let relatedContentTitle = document.querySelector('.ext-related-articles-card-list h3');
-  if (relatedContentTitle) {
-    relatedContentTitle.backgroundImage ='linear-gradient(to right,rgba(255,255,255,0),gray 50%)'
-  }
+  relatedContent.backgroundColor = 'lightslategray';
+}
+
+let footer = document.querySelector(".minerva-footer");
+if (footer) {
+  footer.style.background = 'lightslategray';
 }
