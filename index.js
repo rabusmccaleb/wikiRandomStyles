@@ -1,11 +1,21 @@
+let htmlTag = document.querySelectorAll('html');
+if (ptags) {
+  htmlTag.style.backgroundColor = 'black';
+}
+
+let bodyTag = document.querySelectorAll('body');
+if (bodyTag) {
+  bodyTag.style.backgroundColor = 'black';
+}
+
 let ptags = document.querySelectorAll('p');
 if (ptags) {
   ptags.forEach(elem => {elem.style.color = 'white';});
 }
 
-let bodyTag = document.querySelector('.overlay-enabled, .mw-body');
-if (bodyTag) {
-  bodyTag.style.backgroundColor = 'black';
+let bodyContent = document.querySelector('.overlay-enabled, .mw-body');
+if (bodyContent) {
+  bodyContent.style.backgroundColor = 'black';
 }
 
 let title = document.querySelector('.mw-page-title-main');
