@@ -59,3 +59,12 @@ if (infoBox.length) {
     elem.style.backgroundColor = 'whitesmoke';
   });
 }
+
+let thumbcaptions = document.querySelectorAll('thumbcaption');
+if (thumbcaptions.length) {
+  thumbcaptions.forEach(elem => {
+    elem.style.color = 'white';
+  });
+}
+
+
