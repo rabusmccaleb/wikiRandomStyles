@@ -1,9 +1,9 @@
-let htmlTag = document.querySelectorAll('html');
-if (ptags) {
+let htmlTag = document.querySelector('html');
+if (htmlTag) {
   htmlTag.style.backgroundColor = 'black';
 }
 
-let bodyTag = document.querySelectorAll('body');
+let bodyTag = document.querySelector('body');
 if (bodyTag) {
   bodyTag.style.backgroundColor = 'black';
 }
