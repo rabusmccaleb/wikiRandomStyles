@@ -18,7 +18,7 @@ if (header) {
   header.style.backgroundColor = 'gray';
 }
 
-let relatedContent = document.querySelector('.ext-related-articles-card-list .ext-related-articles-card');
+let relatedContent = document.querySelector('.ext-related-articles-card-list.ext-related-articles-card');
 if (relatedContent) {
   relatedContent.backgroundColor = 'lightslategray';
 }
