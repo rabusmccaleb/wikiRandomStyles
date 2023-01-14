@@ -28,6 +28,14 @@ if (h1Tags.length) {
   h1Tags.forEach(elem => { elem.style.color = 'white'; });
 }
 
+//minerva__tab 
+
+let minerva__tabs = document.querySelectorAll('.minerva__tab');
+if (minerva__tabs.length) {
+  minerva__tabs.forEach(elem => { elem.style.color = 'white'; });
+}
+
+
 let header = document.querySelector('.header-container');
 if (header) {
   header.style.backgroundColor = 'lightslategray';
