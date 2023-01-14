@@ -60,9 +60,32 @@ if (infoBox.length) {
   });
 }
 
-let thumbcaptions = document.querySelectorAll('thumbcaption');
+let thumbcaptions = document.querySelectorAll('.thumbcaption');
 if (thumbcaptions.length) {
   thumbcaptions.forEach(elem => {
+    elem.style.color = 'white';
+  });
+}
+
+//section-heading
+let sectionHeadings = document.querySelectorAll('.section-heading');
+if (sectionHeadings.length) {
+  sectionHeadings.forEach(elem => {
+    elem.style.color = 'white';
+  });
+}
+
+
+let mwHeadlines = document.querySelectorAll('.mw-headline');
+if (sectionHeadings.length) {
+  sectionHeadings.forEach(elem => {
+    elem.style.color = 'white';
+  });
+}
+
+let liTags = document.querySelectorAll('li');
+if (listItems.length) {
+  listItems.forEach(elem => {
     elem.style.color = 'white';
   });
 }
