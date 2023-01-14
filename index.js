@@ -23,6 +23,11 @@ if (title) {
   title.style.color = 'white';
 }
 
+let h1Tags = document.querySelectorAll('h1');
+if (h1Tags.length) {
+  h1Tags.forEach(elem => { elem.style.color = 'white'; });
+}
+
 let header = document.querySelector('.header-container');
 if (header) {
   header.style.backgroundColor = 'lightslategray';
